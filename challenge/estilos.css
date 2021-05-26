@@ -1,0 +1,26 @@
+.cajas{
+    font-size: 0;
+}
+.caja{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+.uno{
+    background-color: blue;
+}
+.dos{
+    background-color: aqua;
+}
+@media screen and (max-width:800px){
+    .caja{
+    display: block;
+    }
+    .uno{
+    background-color: green;
+    }
+    .dos{
+    background-color: greenyellow;
+    }
+}
+ 

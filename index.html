@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="menu">Menu</div>
+        <nav class="portada">
+            <ul>
+                <li><i class="fas fa-home"></i></li>
+                <li><i class="fas fa-laptop"></i></li>
+                <li><i class="fas fa-project-diagram"></i></li>
+                <li><i class="fas fa-id-card"></i></li>
+            </ul>
+        </nav>
+        <div class="imagen1">
+            <h1>Elizabeth Perez</h1>
+            <a href="#articulo"><button class="button">Ver más</button></a>
+            <img class="foto" src="img2.jpg">
+        </div>
+    </header>
+    <main>
+        <section class="seccion1">
+            <article class="articulo1">
+                <h2>Datos Personales</h2>
+                <p>Elizabeth Perez</p>
+                <p>Tengo 23 años</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium id porro amet reiciendis cum quia aut, nam voluptas recusandae. Dolorum deleniti, blanditiis ullam provident maiores quis debitis quod in autem.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ipsum facilis eius iure provident neque quidem repudiandae sunt unde. Repellendus corrupti nesciunt incidunt vero aliquid nemo quas, cupiditate corporis error!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusamus esse nesciunt, dicta illo id labore, in eaque rem sapiente tempora excepturi a quos exercitationem perferendis cum impedit voluptatum neque.</p>
+                <button class="btn">Ver Más</button>
+            </article>
+            <article class="articulo2">
+                <img id="tecnologia" src="img1.jpg">
+                <button class="btn">Ver Más</button>
+            </article>
+        </section>
+        <section class="seccion2">
+            <article id="articulo" class="articulo3">
+                <h2>Proyectos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro corrupti earum saepe magnam recusandae voluptatem minus sequi fuga repellat est, veniam, aliquam architecto repudiandae deserunt! Ea veniam porro ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, mollitia. Aliquid quos repellendus error perferendis nam, quibusdam dolorum impedit quia, odio iusto ut id, magnam cupiditate nobis corrupti? Alias, nam?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ab iusto ducimus numquam ut veritatis consequuntur eos expedita in possimus nisi incidunt corporis, ipsa fuga voluptate eveniet fugiat tempore repudiandae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio fuga dolor voluptate minima maiores, eveniet voluptas veniam reprehenderit dolorem nostrum, perspiciatis voluptatum id, enim sequi velit. Quod, hic perspiciatis.</p>
+                <button class="btn">Ver Más</button>
+            </article>
+            <article id="articulo" class="articulo4">
+                <h2>Tecnologías Aprendidas</h2>
+                <p>HTML</p>
+                <P>CSS</P>
+                <P>KOALA</P>
+                <P>SASS</P>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ab iusto ducimus numquam ut veritatis consequuntur eos expedita in possimus nisi incidunt corporis, ipsa fuga voluptate eveniet fugiat tempore repudiandae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio fuga dolor voluptate minima maiores, eveniet voluptas veniam reprehenderit dolorem nostrum, perspiciatis voluptatum id, enim sequi velit. Quod, hic perspiciatis.</p>
+                <button class="btn">Ver Más</button>
+            </article>
+        </section>
+        <section>
+            <h2>CONTACTO</h2>
+            <form action="formulario.html" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder=" Ingrese nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder=" Ingrese apellido">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder=" Ingrese email" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" min="1" name="edad" id="edad" placeholder=" Ingrese edad">
+
+                <button class="btn" type="submit">ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span>Copyright 2021</span> 
+        <i class="fas fa-mail-bulk"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-whatsapp"></i>
+    </footer>
+</body>
+</html>
